@@ -69,11 +69,21 @@ const ArrowButton = styled.button`
 `;
 
 const LeftArrow = styled(ArrowButton)`
+  background-color: rgb(148, 148, 148);
   left: 0;
+
+  &:hover {
+    background-color: rgb(171, 171, 171);
+  }
 `;
 
 const RightArrow = styled(ArrowButton)`
+  background-color: rgb(148, 148, 148);
   right: 0;
+
+  &:hover {
+    background-color: rgb(171, 171, 171);
+  }
 `;
 
 const Indicators = styled.div`

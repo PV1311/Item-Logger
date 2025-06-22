@@ -21,8 +21,8 @@ const DeleteButton = styled.button`
   justify-content: center;
   transition: background 0.3s;
 
-  svg{
-    color="#c8c8c8";
+  svg {
+    color: "rgb(221, 221, 221)";
     transition: color 0.3s;
   }
   &:hover {
@@ -41,7 +41,8 @@ const Card = styled.div`
   min-width: 27.5rem;
   // border: 1px solid var(--color-grey-100);
   border-radius: var(--border-radius-md);
-  background-color: rgb(51, 51, 51);
+  color: rgb(221, 221, 221);
+  background-color: rgb(69, 69, 69);
   box-shadow: 3px 3px 15px rgba(255, 254, 254, 0.2);
 `;
 
